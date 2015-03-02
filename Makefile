@@ -14,7 +14,7 @@ PKG_RELEASE:=2
 PKG_SOURCE:=node-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=http://nodejs.org/dist/${PKG_VERSION}
 PKG_MD5SUM:=a2b05af77e8e3ef3b4c40a68372429f1
-GIT_SOURCE:=https://github.com/brimstone/v8m-rb
+GIT_SOURCE:=https://github.com/akwrt/v8m-rb
 #GIT_SOURCE:=/tmp/v8m-rb
 
 GYP_DEFINES:=v8_use_mips_abi_hardfloat=false v8_can_use_fpu_instructions=false
